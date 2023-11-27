@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Multiplicação</title>
+   <link rel="icon" type="image/x-icon" href="/assets/img/puzzle.png">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="/games/math-multiplication/math-multiplication.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="/index.html" class="logo"> <i class="fa fa-solid fa-puzzle-piece "></i> Re:Memo Jogos</a>
+    
+        <nav class="navbar">
+            <a href="/index.html">Início</a>
+            <a href="/about-us.html">Sobre nós</a>
+            <a href="/contact.html">Entre em contato</a>
+        </nav>
+    </header>
+
+   <div class="main-container">
+      <div class="main">
+         
+         <h1>Multiplique os números e digite o valor do resultado!</span></h1>
+
+         <div class="container">
+
+            <div class="box">
+               <div>
+                  <input type="text" id="numText1" class="number">
+               </div>
+               <div class="operation-icon">
+                  <p>x</p>
+               </div>
+                <div>
+                  <input type="text" id="numText2" class="number">
+               </div>
+
+               <div class="operation-icon">
+                <p> = </p>
+             </div>
+               <div>
+                <input type="text" id="answer">
+             </div>
+            </div>
+            
+             <div>
+               <button class="btn" onclick="Game()">Verificar resposta!</button>
+            </div>
+            <div class="show-answer"><span id="ans"></span></div>
+         </div>
+      </div>
+   </div>
+   <script src="./math-multiplication.js"></script>
+
+</body>
+</html>
