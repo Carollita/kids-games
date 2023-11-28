@@ -11,3 +11,6 @@ Site auxiliar na aprendizagem do ensino infantil.
 - [x] Multiplicação
 - [x] Divisão
 - [x] Meio Ambiente
+
+# Acesso
+[Re:Memo](https://carollita.github.io/kids-games/index.html)
